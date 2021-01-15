@@ -1,0 +1,67 @@
+.wrapper {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0; }
+
+.hi + .hi {
+  margin-left: 10px !important; }
+
+.wrapper .banners .carousel .slide-indicators {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  z-index: 10;
+  transform: translateX(-50%); }
+
+.wrapper .banners .carousel-indicators {
+  position: relative;
+  margin: 0; }
+  .wrapper .banners .carousel-indicators > li {
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    border-radius: 50%;
+    border: 0; }
+  .wrapper .banners .carousel-indicators .active {
+    width: 25px;
+    border-radius: 5px; }
+
+.wrapper .banners .carousel-inner .carousel-item {
+  position: relative;
+  background-position: center;
+  background-size: cover; }
+
+.wrapper .banners .carousel-control-prev {
+  justify-content: flex-end; }
+  .wrapper .banners .carousel-control-prev span {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black; }
+  .wrapper .banners .carousel-control-prev .carousel-control-prev-icon {
+    min-width: 50px;
+    height: 50px;
+    background-image: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 8px; }
+    .wrapper .banners .carousel-control-prev .carousel-control-prev-icon img {
+      height: 80%; }
+
+.wrapper .banners .carousel-control-next {
+  justify-content: flex-start;
+  margin-right: 50px; }
+  .wrapper .banners .carousel-control-next span {
+    background-color: #FFFFFF;
+    color: black; }
+  .wrapper .banners .carousel-control-next .carousel-control-next-icon {
+    min-width: 135px;
+    height: 50px;
+    background-image: none;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .wrapper .banners .carousel-control-next .carousel-control-next-icon img {
+      height: 80%; }
